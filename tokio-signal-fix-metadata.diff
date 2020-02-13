@@ -1,0 +1,12 @@
+--- tokio-signal-0.2.9/Cargo.toml	2020-02-05T00:24:59+00:00
++++ tokio-signal-0.2.9/Cargo.toml	2020-02-06T17:49:10.743781+00:00
+@@ -44,9 +44,6 @@
+ 
+ [target."cfg(unix)".dependencies.signal-hook-registry]
+ version = "~1"
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3"
+-features = ["consoleapi", "minwindef", "wincon"]
+ [badges.appveyor]
+ id = "s83yxhy9qeb58va7"
+ repository = "carllerche/tokio"
